@@ -1,0 +1,26 @@
+{
+    "name": "tseho/doctrine-assigned-identity",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tseho",
+            "email": "quentin.favrie@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.6",
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tseho\\DoctrineAssignedIdentity\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.1"
+        }
+    }
+}
