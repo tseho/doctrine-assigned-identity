@@ -12,7 +12,7 @@ trait SetId
     public function setId($id)
     {
         if ($this->id) {
-            throw new \LogicException('You are allowed to overwrite an existing id.');
+            throw new \LogicException('You are not allowed to overwrite an existing id.');
         }
 
         $this->id = $id;
