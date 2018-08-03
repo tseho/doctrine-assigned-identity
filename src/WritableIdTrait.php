@@ -2,7 +2,7 @@
 
 namespace Tseho\DoctrineAssignedIdentity;
 
-trait SetId
+trait WritableIdTrait
 {
     /**
      * @param $id
